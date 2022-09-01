@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\BackUp\\TweetDemo\\TweetWeb.Model\\TweetWeb.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\BackUp\\TweetDemo\\TweetWeb.Model\\TweetWeb.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BackUp\\TweetDemo\\TweetWeb.Model\\TweetWeb.Model.csproj",
+        "projectName": "TweetWeb.Model",
+        "projectPath": "C:\\BackUp\\TweetDemo\\TweetWeb.Model\\TweetWeb.Model.csproj",
+        "packagesPath": "C:\\Users\\Tejas.Ajwalia\\.nuget\\packages\\",
+        "outputPath": "C:\\BackUp\\TweetDemo\\TweetWeb.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tejas.Ajwalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://civicanugetserver.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
